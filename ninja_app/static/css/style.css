@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header button {
+    padding: 1em;
+    font-size: 1.3rem;
+}
+h1,h2,h3,h4,h5,p {
+    color: rgba(83, 184, 231, 0.89);
+}
+h1 {
+    font-size: 2rem;
+}
+body {
+    padding: 4rem;
+    background-color: #1b235c;
+}
+.earn {
+    color: #cfbd18;
+}
+.lose {
+    color: #f28c7a;
+}
+#buildings {
+    display: flex;
+    justify-content: space-between;
+}
+h1, #buildings h3 {
+    margin: 0;
+}
+#buildings * {
+    font-size: 1rem;
+}
+#buildings  div {
+    width: 19%;
+    height: 10rem;
+    padding: 2em;
+    border: solid rgb(189, 102, 102) 2px;
+}
+#activities {
+    height: 10rem;
+    padding: 1rem;
+    overflow-y: scroll;
+    border: solid;
+    border: solid rgb(189, 102, 102) 2px;
+}
+#activities p {
+    margin-top: 0;
+    color: #cfbd18;
+}
